@@ -1,0 +1,28 @@
+name: lightscreen theme
+description: Drupal 8 starter theme 
+core: '8.x'
+project: 'lightscreen'
+type: theme
+version: '8.x-1.0'
+
+screenshot: images/logo.jpg
+
+
+regions:
+  #header
+  header: Header
+  #menu
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  #body
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  #footer
+  footer: 'Footer'
+  
+
+
+
+
+
