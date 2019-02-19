@@ -18,13 +18,21 @@ $susy:(
 
 body{
     -webkit-font-smoothing: antialiased;
-    background:#000;
-    font-family: sans-serif;
-}
+    font-family: 'Indie Flower', cursive;
+    background: white;
+        h1{
+            font-size: 15px;
+        }
+} 
 
 *{
     box-sizing:border-box;
+    padding-top: 0%;
+    h1{
+        font-size: 15px;
+    }
 }
+
 
 .container{
     @include container(1100px);
@@ -45,7 +53,7 @@ body{
 }
 
 #page-wrapper{
-    background: red; 
+    background:rgba(207, 0, 0, 0.2);
 }
 #page {
     display: grid;
@@ -54,18 +62,26 @@ body{
     'main'
     'footer';
     grid-gap: 10px;
-    background: white;
+    background:rgb(255, 255, 255);
     margin-left: 7%;
     margin-right: 7%;
     height: 100%;
     box-sizing: border-box;
     position: relative;
-    
     p {
         font-size: 14px;
     }
-
 }
+#prueba-bloque
+#block-lightscreen-branding > .image-portada{
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 .header .menu-page > div #block-lightscreen-account-menu > li{
@@ -135,11 +151,8 @@ a {
     text-decoration: none;
     /* font-size: 17px; */
 }
-.prueba-bloque2 a img{
-    width: 30%;
-    height: 10%;
-    border-radius: 60%;
-    
+a img .image-portada{
+    width: 100%;
 }
 #page-wrapper{
     /* background:white; */
@@ -186,7 +199,7 @@ a {
     background:red;
 } 
 
-.menu-page #prueba-bloque .prueba-bloque2 #block-lightscreen-local-tasks{
+.menu-page #prueba-bloque #block-lightscreen-local-tasks{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -210,6 +223,7 @@ a {
 .breadcrumb {
     grid-area: breadcrumb;   
 }
+
 ol li a{
     display: flex;
     flex-direction: row;
@@ -223,11 +237,7 @@ ol li a{
     position: relative;
     left: 200%;
    
-} */
-
-body{
-    background: white;
-}    
+} */   
 
 .section 
 .menu-page
@@ -254,12 +264,13 @@ body{
      color: black;
      padding: 15px;
      box-sizing: border-box;
-     height: 50%;
+     
  }
 
  a:-webkit-any-link > ul li > a{
      color: black; 
  }
+ 
  
  #menu-page
  #block-lightscreen-footer > ul li a{
@@ -311,6 +322,16 @@ body{
 .menu-page .bloque2 #block-tools #block-tools-menu{
     font-size: 24px;
 }
+
+/* 
+h1, p{
+    font-family: 'Indie Flower', cursive;
+}
+p{font-size: 155px;}
+  */
+
+
+
 
 /* =======================================================================
 ## ++ Cleafix

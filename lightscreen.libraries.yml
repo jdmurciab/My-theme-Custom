@@ -3,7 +3,15 @@ global-css:
   css:
     theme:
       css/style.css: {}
+      
   js:
-    js/app.js: {}
+    js/app.js:
   dependencies:
     - core/drupal
+    - lightscreen/fonts
+    
+fonts:
+  css:
+    theme:
+      https://fonts.googleapis.com/css?family=Indie+Flower: { type: external }
+      

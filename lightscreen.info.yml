@@ -7,22 +7,19 @@ version: '8.x-1.0'
 
 screenshot: images/logo.jpg
 
+libraries:
+  - 'lightscreen/global-css'
+
 
 regions:
   #header
   header: Header
-  #menu
-  primary_menu: 'Primary menu'
+  #menurimary menu'
   secondary_menu: 'Secondary menu'
+  primary_menu: 'P'
   #body
   breadcrumb: Breadcrumb
   content: Content
   sidebar_first: 'Sidebar first'
   #footer
   footer: 'Footer'
-  
-
-
-
-
-
