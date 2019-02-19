@@ -1,0 +1,346 @@
+/* =======================================================================
+## ++ Susy
+========================================================================== */
+$susy:(
+    container-position: center,
+    last-flow: to,
+    columns: 12,
+    gutters: 1/4,
+    gutter-position: inside,
+);
+
+/* =======================================================================
+## ++ Globals
+========================================================================== */
+/* html{
+    font-size: 100%;
+} */
+
+body{
+    -webkit-font-smoothing: antialiased;
+    background:#000;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    @include container(1100px);
+}
+
+#prueba-bloque2, .prueba, .prueba-vista {
+    background: rgb(153, 133, 127);
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+    box-sizing: border-box;
+	/* font-size: 100%; */
+	font-family: 'Georgia', sans-serif;
+    vertical-align: baseline;
+    padding:14px 30px 14px;
+    word-wrap:break-word;
+}
+
+#page-wrapper{
+    background: red; 
+}
+#page {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-gap: 10px;
+    background: white;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    
+    p {
+        font-size: 14px;
+    }
+
+}
+
+
+.header .menu-page > div #block-lightscreen-account-menu > li{
+    float: left;
+    position: relative;
+    left: 200%;
+}
+#block-lightscreen-account-menu > ul li >a{
+    color: black;
+    background: rgba(236, 235, 235, 0.6)
+}
+
+.header .menu-page > div #block-lightscreen-account-menu > li a{
+    display: block;
+    /* color: white; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+}
+
+#page li a:hover:not(.active) {
+    background-color: #dfd7d7; 
+    border-radius: 15px;
+} 
+
+.header .menu-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;      
+}
+#bloque-prueba
+#bloque-prueba2
+#block-lightscreen-searchformposition{
+    position:  relative;
+left: 200%;
+}
+.header .menu-page nav {
+    display: inline-flex;
+    
+}
+.header .menu-page nav > ul {
+    display: flex;
+   
+}
+.header .menu-page nav > ul li{
+    display: inline-flex;
+}
+.header .menu-page nav > ul li > a{
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    text-decoration: none;
+    /* font-size: 1.8em; */
+    color: white;
+}
+.header
+.menu-page
+#prueba-bloque {
+    display: inline-flex;
+    align-content: center;
+   
+}
+.header
+.menu-page
+#prueba-bloque
+a {
+    text-decoration: none;
+    /* font-size: 17px; */
+}
+.prueba-bloque2 a img{
+    width: 30%;
+    height: 10%;
+    border-radius: 60%;
+    
+}
+#page-wrapper{
+    /* background:white; */
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+} 
+
+.sidebar .block {
+    background:rgba(119, 116, 116, 0.6);
+    padding: 5%;
+    border: 3px solid black;
+    
+} 
+#sidebar-first{
+    background: rgb(206, 206, 206);
+}
+
+.site-footer {
+    grid-area: footer;
+    align-content: center;
+    background-color: #a70505;
+} 
+.header{
+    grid-area: header;
+    padding: 0%;  
+}
+.header > div {
+    display: grid;
+    margin: 0 auto;
+}
+
+.header .primary_menu {
+    background: rgba(31, 20, 20, 0.815);
+    color: black; 
+}
+
+/* .header .main_header {
+    
+} */
+
+.header .seconday_menu {
+    background:red;
+} 
+
+.menu-page #prueba-bloque .prueba-bloque2 #block-lightscreen-local-tasks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+#layout-container > div >div{
+    background-color: rgb(235, 13, 13);
+}
+
+#main-wrapper div#main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    'breadcrumb breadcrumb'
+    'sidebar main-content'
+    'sidebar main-content';
+}
+
+.breadcrumb {
+    grid-area: breadcrumb;   
+}
+ol li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+/* #page-wapper #page #header .seconday_menu  .contextual-region 
+{
+    position: relative;
+    left: 200%;
+   
+} */
+
+body{
+    background: white;
+}    
+
+.section 
+.menu-page
+#prueba-bloque
+#block-lightscreen-local-tasks > ul li{
+    float: left;
+    box-sizing: border-box;
+    margin-right: 5px;
+    text-decoration: none;
+    color: rgb(184, 9, 9);
+    list-style: none;
+}
+#prueba-bloque .prueba{
+    background: rgba(155, 153, 153, 0.6);
+    padding: 3%;
+}
+#prueba-bloque
+#block-lightscreen-branding > ul li >  a{
+    color: white;
+    /* font-size: 4em; */
+}
+
+ #page-wrapper #page #main-wrapper #main #content {
+     color: black;
+     padding: 15px;
+     box-sizing: border-box;
+     height: 50%;
+ }
+
+ a:-webkit-any-link > ul li > a{
+     color: black; 
+ }
+ 
+ #menu-page
+ #block-lightscreen-footer > ul li a{
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: #ff2b2b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    color:white;
+  }
+
+  input[type=search] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(153, 151, 151);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=search]:focus {
+    border: 3px solid rgb(247, 65, 52);
+  }
+
+  /* .menu-page
+  #block-tools{
+    background: rgb(146, 144, 144);
+} */
+
+#sidebar-first{
+    padding: 5%;
+}
+#sidebar-first .menu-page .bloque2{
+        background: rgba(119, 116, 116, 0.6);
+        padding: 5%;
+        border: 3px solid black;
+}
+.menu-page .bloque2 #block-tools #block-tools-menu{
+    font-size: 24px;
+}
+
+/* =======================================================================
+## ++ Cleafix
+========================================================================== */
+
+/* float clearing for IE6 */
+* html .clearfix{
+ height: 1%;
+ overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+ min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+ clear: both;
+ content: ".";
+ display: block;
+ height: 0;
+ visibility: hidden;
+ /* font-size: 0; */
+}
+
+.clr{clear:both;}
+
+
+
+
+
+
